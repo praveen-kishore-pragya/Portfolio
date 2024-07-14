@@ -1,0 +1,44 @@
+.skillsSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .title{
+        margin:50px 0 30px 0;
+        /* text-align: center;
+        align-self: center;
+        justify-content: center; */
+    }
+    
+    .skillsList{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-self: center;
+        row-gap: 40px;
+        max-width: 26ch;   
+    }
+
+    span{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    img{
+        width: 20px;
+    }
+
+    hr{
+        width: 100px;
+        height: 1px;
+        border: none;
+        background-color: var(--text-color);
+        margin: 30px auto;
+    }
+
+
+
+}
+

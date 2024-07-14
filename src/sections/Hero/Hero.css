@@ -1,0 +1,85 @@
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    height: 100dvh;
+
+
+
+.topLayer{
+    position: relative;
+}
+
+
+.hero-Image{
+    max-width: 200px;
+}
+
+.displayMode{
+    position: absolute;
+    right: 0;
+    width: 25px;
+}
+
+.hero-name{
+
+}
+
+.hero-designation{
+
+}
+
+.hero-skills{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+    
+    a{
+        img{
+            width: 35px;
+        }
+    }
+}
+
+.hero-about{
+    /* max-width: 24ch; */
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+
+
+
+a{
+
+    width: fit-content;
+    align-self: center;
+
+    button{
+        background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        border: none;
+        border-radius: 20px;
+        width: 125px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 4px 4px rgb(0, 0, 0);
+    }
+
+    button:hover{
+        /* transform: scale3d(1.1,1.1,1.1); */
+        transform: scale(1.1);
+    }
+
+    button:active{
+        transform:translateY(2px);
+        box-shadow: 0 2px 2px rgb(0, 0, 0);
+    }
+}
+
+
+}
+

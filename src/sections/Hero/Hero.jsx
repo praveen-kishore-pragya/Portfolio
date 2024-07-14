@@ -16,6 +16,8 @@ import CV from './../../assets/Praveen_Kishore_Pragya.pdf'
 
 import { useTheme } from './../../common/ThemeContext'
 
+import "./Hero.css"
+
 function Hero(){
 
   const {theme, toggleTheme} = useTheme();
@@ -32,9 +34,9 @@ function Hero(){
 const leetcodeIcon = theme === 'light' ? leetcodeLight : leetcodeDark;
   
   return (
-    <div>
+    <div className='heroSection'>
 
-      <div className="heroImage">
+      <div className="topLayer">
       
           <img
             className="hero-image"
@@ -54,7 +56,7 @@ const leetcodeIcon = theme === 'light' ? leetcodeLight : leetcodeDark;
       
       
 
-      <div className="Hero-name">
+      <div className="hero-name">
         <h1>PRAVEEN
         <br/>
           KISHORE
@@ -64,11 +66,11 @@ const leetcodeIcon = theme === 'light' ? leetcodeLight : leetcodeDark;
         </h1>
       </div>
       
-      <div className="Hero-designation">
-        <h2>FULL-STACK DEVELOPER</h2>
+      <div className="hero-designation">
+        <h2>FULL - STACK DEVELOPER</h2>
       </div>
 
-      <div className="Hero-skills">
+      <div className="hero-skills">
         <a href="https://github.com/praveen-kishore-pragya" target='_blank'>
           <img src={githubIcon} alt="GitHub Icon"></img>
         </a>
@@ -82,17 +84,17 @@ const leetcodeIcon = theme === 'light' ? leetcodeLight : leetcodeDark;
         </a>
       </div>
 
-      <div className='Hero-about'>
+      <div className='hero-about'>
         <p>
           With a passion to build things.
         </p>
       </div>
 
-      <div className='Resume-button'>
-        <a href={CV} download>
-          <button className='hover'>Resume</button>
-        </a>
-      </div>
+      
+      <a href={CV} download>
+        <button className='hover'>Resume</button>
+      </a>
+      
       
     </div>
   )
