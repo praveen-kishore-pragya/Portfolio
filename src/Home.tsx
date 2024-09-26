@@ -14,9 +14,9 @@ function Home(){
                         </div>
                         <div className="links flex mt-4">
                             <ul className="flex space-x-3">
-                                <li><a href="https://github.com/praveen-kishore-pragya" target="_blank"><img className="h-11 w-11" src="./../public/github-light.svg" alt="GitHub"/></a></li>
-                                <li><a href="https://www.linkedin.com/in/praveen-kishore-pragya-b24b37197/" target="_blank"><img className="h-11 w-11" src="./../public/linkedin-light.svg" alt="LinkedIn"/></a></li>
-                                <li><a href="https://leetcode.com/u/psm_1/" target="_blank"><img className="h-11 w-11" src="./../public/leetcode-dark.svg" alt="LeetCode"/></a></li>
+                                <li><a href="https://github.com/praveen-kishore-pragya" target="_blank"><img className="h-11 w-11" src="/github-light.svg" alt="GitHub"/></a></li>
+                                <li><a href="https://www.linkedin.com/in/praveen-kishore-pragya-b24b37197/" target="_blank"><img className="h-11 w-11" src="/linkedin-light.svg" alt="LinkedIn"/></a></li>
+                                <li><a href="https://leetcode.com/u/psm_1/" target="_blank"><img className="h-11 w-11" src="/leetcode-dark.svg" alt="LeetCode"/></a></li>
                             </ul>
                         </div>
                         <a href="./../public/Praveen_Kishore_Pragya.pdf">
@@ -30,7 +30,7 @@ function Home(){
             
 
                 <div className="right flex-shrink-0">
-                    <img className="rounded-2xl hover:border-8 border-indigo-800 hover:scale-105" src="./../public/ProfilePhoto.png" alt="" />
+                    <img className="rounded-2xl hover:border-8 border-indigo-800 hover:scale-105" src="/ProfilePhoto.png" alt="" />
                 </div>
 
             </div>

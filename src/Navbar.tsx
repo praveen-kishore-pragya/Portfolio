@@ -4,7 +4,7 @@ function Navbar(){
             <div className="navbar h-16 px-8 flex justify-between p-4 text-white fixed w-full top-0 left-0 z-10 border-b-2 border-gray-800">
                 <div className="left">
                     <ul className="flex">
-                        <li className="cursor-pointer"><img className="h-8 w-8" src="./../public/ProfilePhoto.jpeg" alt="Profile-Photo" /></li>
+                        <li className="cursor-pointer"><img className="h-8 w-8" src="/ProfilePhoto.jpeg" alt="Profile-Photo" /></li>
                     </ul>
                 </div>
                 <div className="right">
