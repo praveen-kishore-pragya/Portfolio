@@ -19,7 +19,7 @@ function Home(){
                                 <li><a href="https://leetcode.com/u/psm_1/" target="_blank"><img className="h-11 w-11" src="/leetcode-dark.svg" alt="LeetCode"/></a></li>
                             </ul>
                         </div>
-                        <a href="./../public/Praveen_Kishore_Pragya.pdf">
+                        <a href="/Praveen_Kishore_Pragya.pdf">
                         <button className="text-2xl mt-8 p-2 rounded-lg text-blue-400 font-bold border-solid border-4 border-indigo-950 hover:scale-110 hover:text-teal-600">
                             Download CV
                         </button>
