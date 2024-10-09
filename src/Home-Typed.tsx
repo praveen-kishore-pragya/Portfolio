@@ -7,7 +7,7 @@ function HomeTyped() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Software Developer.', 'Full-Stack Developer.', 'DevOps Engineer.'],
+      strings: ['Software Developer.', 'Full-Stack Developer.', 'Mobile-Apps Developer', 'DevOps Engineer.'],
       typeSpeed: 50,
       backSpeed: 25, // Speed at which it deletes characters
       backDelay: 1000, // Delay before starting to delete
